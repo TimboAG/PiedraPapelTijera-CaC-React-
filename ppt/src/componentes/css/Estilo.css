@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+.opciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+   .opcion{
+    font-size: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 40px;
+    cursor: pointer;
+  }
+  .Juego{
+    text-align: center;
+  }
+  .juegoMain{
+    margin-bottom: 5%;
+  }
